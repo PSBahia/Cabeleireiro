@@ -62,7 +62,7 @@ figure img:hover{
 
     display: flex;
     width: 100%;
-    background: rgba(0, 0, 0, 0.5); 
+    background: rgba(0, 0, 0, 0.8); 
     padding: 0.2rem;
     text-align: center;
     height: 8rem;
@@ -72,8 +72,8 @@ figure img:hover{
 }
 
 ion-icon{
-    color: lightgrey;
-    font-size: 6rem;
+    color: chocolate;
+    font-size: 4rem;
 }
 
 .links{
@@ -115,5 +115,5 @@ ion-icon{
 }
 
 footer{
-    height: 10rem;
+    height: 6rem;
 }
