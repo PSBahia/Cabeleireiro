@@ -17,21 +17,39 @@ body{
     height: 100vh;   
 }
 
+.frase{
+    text-align: justify;
+    margin:  auto;
+    margin-top: 12rem;
+    font-size: 1.8rem;
+    width: 90%;
+    max-width: 50rem;
+    color: aliceblue;
+    font-style: italic;
+    border: 1px solid chocolate;
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.5); 
+    border-radius: 1rem;
+    box-shadow: 0 1rem 1rem black;
+
+}
+
 main{
-    margin-top: 8rem;
+    margin-top: 2rem;
     width: 100%;
     margin-bottom: 10rem;
+
 }
 
 h1{
     font-family: 'Bungee', sans-serif;
     text-align: center;
-    padding-top: 2rem;
+    padding-top: 4rem;
     color: white;
 }
 
 .imagens{
-    background: rgba(0, 0, 0, 0.856);
+    background: rgba(0, 0, 0, 0.5);
     border-radius: 2rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -39,6 +57,7 @@ h1{
     padding: 4rem;
     gap: 4rem;
     margin: 4rem;  
+    box-shadow: 0 1rem 1rem black;
 }
 
 figure img{ 
