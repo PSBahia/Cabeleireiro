@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: rgb(29, 29, 29);
+    padding-bottom: 2rem;
+}
+
+.app{
+    height: 100vh;   
+}
+
+main{
+    margin-top: 8rem;
+    width: 100%;
+    margin-bottom: 10rem;
+}
+
+h1{
+    font-family: 'Bungee', sans-serif;
+    text-align: center;
+    padding-top: 2rem;
+    color: white;
+}
+
+.imagens{
+    background: rgba(0, 0, 0, 0.856);
+    border-radius: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    padding: 4rem;
+    gap: 4rem;
+    margin: 4rem;  
+}
+
+figure img{ 
+    box-shadow: 0 1rem 1rem black;
+    width: 100%;
+    border-radius: 1rem;
+}
+
+figure img:hover{
+    box-shadow: 0 1rem 2rem chocolate;
+    width: 107%;
+    margin-left: -1rem;
+    transition: .5s;
+}
+
+.redes-sociais{
+    width: 100%;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+
+    display: flex;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.5); 
+    padding: 0.2rem;
+    text-align: center;
+    height: 8rem;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+ion-icon{
+    color: lightgrey;
+    font-size: 6rem;
+}
+
+.links{
+    width: 5rem;
+    height: 5rem;
+}
+
+.header{
+    font-family: 'Bungee', sans-serif;
+    display: grid;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.856);
+    color:chocolate;
+    margin: 0;
+    padding: 0.2rem;
+    text-align: center;
+    font-size: 24px;
+    position: fixed;
+    top: 0;
+    height: 8rem;
+    align-items: center;
+}
+
+@media(max-width: 500px) {
+    .imagens{
+        display: grid;
+        grid-template-columns: 1fr;
+        align-items: center;
+        padding: 2rem;
+        margin: 2rem;  
+        gap: 1rem;
+        border-radius: 1rem;
+    }
+    img{
+        width: 100%;
+        margin-bottom: 1rem;
+    }
+
+}
+
+footer{
+    height: 10rem;
+}
