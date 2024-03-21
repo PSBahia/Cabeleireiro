@@ -58,6 +58,7 @@ h1{
     gap: 4rem;
     margin: 4rem;  
     box-shadow: 0 1rem 1rem black;
+    border: 0.5px solid chocolate;
 }
 
 figure img{ 
