@@ -17,7 +17,7 @@ body{
     height: 100vh;   
 }
 
-.frase{
+.frase, .servicos{
     text-align: justify;
     margin:  auto;
     margin-top: 12rem;
@@ -65,6 +65,7 @@ figure img{
     box-shadow: 0 1rem 1rem black;
     width: 100%;
     border-radius: 1rem;
+    border: 1px solid white;
 }
 
 figure img:hover{
@@ -72,6 +73,17 @@ figure img:hover{
     width: 107%;
     margin-left: -1rem;
     transition: .5s;
+}
+
+.servicos ul{
+    text-align: center;
+    list-style: none;
+}
+
+.servicos{
+    margin-top: 10px;
+    border: none;
+    color: chocolate;
 }
 
 .redes-sociais{
