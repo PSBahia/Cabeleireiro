@@ -117,7 +117,7 @@ ion-icon{
     align-items: center;
 }
 
-@media(max-width: 500px) {
+@media(max-width: 700px) {
     .imagens{
         display: grid;
         grid-template-columns: 1fr;
