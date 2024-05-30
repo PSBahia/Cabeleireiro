@@ -17,7 +17,7 @@ body{
     height: 100vh;   
 }
 
-.frase, .servicos{
+.frase, .servicos, .video{
     text-align: justify;
     margin:  auto;
     margin-top: 12rem;
@@ -84,6 +84,14 @@ figure img:hover{
     margin-top: 10px;
     border: none;
     color: chocolate;
+}
+
+.video{
+    text-align: center;
+}
+
+video{
+    border-radius: 10px;
 }
 
 .redes-sociais{
