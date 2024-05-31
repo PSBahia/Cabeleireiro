@@ -155,5 +155,7 @@ ion-icon{
 }
 
 footer{
-    height: 6rem;
+    height: 12rem;
+    text-align: center;
+    color: white;
 }
