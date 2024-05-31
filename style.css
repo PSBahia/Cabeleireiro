@@ -122,6 +122,7 @@ ion-icon{
 }
 
 .header{
+    z-index: 1;
     font-family: 'Bungee', sans-serif;
     display: grid;
     width: 100%;
@@ -165,7 +166,7 @@ footer{
 }
 
 .imagens img {
-    opacity: 0;
+    opacity: 1;
     transform: translateX(200px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
