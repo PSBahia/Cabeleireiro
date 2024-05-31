@@ -164,24 +164,8 @@ footer{
     background: rgba(0, 0, 0, 0.8);
 }
 
-
-/*Animation imagens*/
-
-.imagem {
-    transform: translateX(100%); /* Começa fora da tela à direita */
-    opacity: 0; /* Começa invisível */
-    transition: transform 0.5s ease, opacity 0.5s ease; /* Transições suaves */
-}
-
-/* Animação de scroll */
-@keyframes aparecer {
-    to {
-        transform: translateX(0); /* Move da direita para a posição inicial */
-        opacity: 1; /* Torna-se visível */
-    }
-}
-
-/* Aplica a animação às imagens quando estiverem visíveis na tela */
-.imagem.anima {
-    animation: aparecer 1.5s ease forwards;
+.imagens img {
+    opacity: 0;
+    transform: translateX(200px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
 }
