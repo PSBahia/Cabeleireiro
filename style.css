@@ -155,11 +155,33 @@ ion-icon{
 }
 
 footer{
-    height: 12rem;
+    height: 15rem;
     text-align: center;
     color: white;
     font-size: 10px;
-    padding: 0 3rem;
+    padding: 2rem 3rem;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-weight: 200;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+
+/*Animation imagens*/
+
+.imagem {
+    transform: translateX(100%); /* Começa fora da tela à direita */
+    opacity: 0; /* Começa invisível */
+    transition: transform 0.5s ease, opacity 0.5s ease; /* Transições suaves */
+}
+
+/* Animação de scroll */
+@keyframes aparecer {
+    to {
+        transform: translateX(0); /* Move da direita para a posição inicial */
+        opacity: 1; /* Torna-se visível */
+    }
+}
+
+/* Aplica a animação às imagens quando estiverem visíveis na tela */
+.imagem.anima {
+    animation: aparecer 1.5s ease forwards;
 }
