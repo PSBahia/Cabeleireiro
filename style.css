@@ -56,9 +56,10 @@ h1{
     align-items: center;
     padding: 4rem;
     gap: 4rem;
-    margin: 4rem;  
+    margin: 4rem auto;  
     box-shadow: 0 1rem 1rem black;
     border: 0.5px solid chocolate;
+    max-width: 800px;
 }
 
 figure img{ 
@@ -99,6 +100,7 @@ video{
     text-align: center;
     position: fixed;
     bottom: 0;
+    z-index: 2;
 
     display: flex;
     width: 100%;
@@ -169,4 +171,312 @@ footer{
     opacity: 1;
     transform: translateY(20px);
     transition: opacity 2s ease-out, transform 2s ease-out;
+}
+
+@keyframes jump {
+    0%, 100% {
+      transform: translateY(0);
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateY(-10px);
+      transform: translateX(-10px);
+    }
+}
+  
+.btn-agendar{
+    font-family: 'Bungee', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: chocolate;
+    font-size: 16px;
+    width: 100px;
+    height: 100px;
+    z-index: 1;
+    position: fixed;
+    top: 0;
+    left: 0;
+    border-radius: 50%;
+    transition: transform 1.5s ease;
+    opacity: 0.8;
+    /*animation: jump 0.3s ease-in-out infinite;*/
+  }
+
+.btn-agendar a{
+    text-decoration: none;
+    text-align: center;
+    color: white; 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+    
 }

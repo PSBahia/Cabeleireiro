@@ -21,3 +21,23 @@ document.addEventListener('DOMContentLoaded', function() {
   window.addEventListener('scroll', handleScroll);
   handleScroll(); // Para verificar a posição das imagens ao carregar a página
 });
+
+
+//agendar
+const agendar = document.getElementById('agendar');
+
+
+function moveRoboAleatoriamente() {
+  const larguraTela = window.innerWidth - agendar.offsetWidth;
+  const alturaTela = window.innerHeight - agendar.offsetHeight;
+
+  const posicaoAleatoriaX = Math.floor(Math.random() * larguraTela);
+  const posicaoAleatoriaY = Math.floor(Math.random() * alturaTela);
+
+  agendar.style.transform = `translate(${posicaoAleatoriaX}px, ${posicaoAleatoriaY}px)`;
+
+}  
+
+
+// Mover o robô a cada 1 segundo
+setInterval(moveRoboAleatoriamente, 1500);
